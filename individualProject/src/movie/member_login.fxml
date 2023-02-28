@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<AnchorPane prefHeight="195.0" prefWidth="310.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="member2.LoginController">
+  <children>
+      <Label layoutX="43.0" layoutY="72.0" text="아이디" />
+      <Label layoutX="43.0" layoutY="104.0" text="패스워드" />
+      <TextField fx:id="tfId" layoutX="121.0" layoutY="68.0" promptText="아이디를 입력하세요" />
+      <PasswordField fx:id="pfPw" layoutX="121.0" layoutY="100.0" promptText="비밀번호를 입력하세요" />
+      <Button fx:id="btnLogin" layoutX="85.0" layoutY="150.0" prefHeight="23.0" prefWidth="65.0" text="로그인" />
+      <Button fx:id="btnJoin" layoutX="161.0" layoutY="150.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="65.0" text="회원가입" />
+      <Label alignment="CENTER" layoutX="88.0" layoutY="14.0" text="로그인화면">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
